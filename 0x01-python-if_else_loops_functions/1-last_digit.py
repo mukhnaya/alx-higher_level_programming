@@ -11,4 +11,4 @@ if (number > 5):
 elif (number < 6 and number != 0):
     print("{} {} is {} {}".format(las_dig, number, last_dig, les_6))
 else:
-    print("{} {1} is {} {}".format(las_dig, number, last_dig, is_zero))
+    print("{} {} is {} {}".format(las_dig, number, last_dig, is_zero))
