@@ -3,7 +3,7 @@ def fizzbuzz():
     fizz = "Fizz"
     buzz = "Buzz"
     fizzbuzz = "FizzBuzz"
-    last = 100
+    last = "Buzz"
     for pau in range(1, 101):
         if pau % 3 == 0 and pau % 5 == 0:
             print("{}".format(fizzbuzz), end=" ")
