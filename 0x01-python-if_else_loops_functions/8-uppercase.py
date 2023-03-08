@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def uppercase(str):
-    final_string = ''
-    for pau in range(len(str)):
+    final_string =""
+    for pau in str:
         if pau in 'abcdefghijklmnopqrstuvwqxyz':
             mos = ord(pau)
             jul = mos - 32
