@@ -13,3 +13,5 @@ def fizzbuzz():
             print("{}".format(buzz), end=" ")
         if pau == 100:
             print("{}".format(last))
+        else:
+            print("{}".format(pau), end=" ")
