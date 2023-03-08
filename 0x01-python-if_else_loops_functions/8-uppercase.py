@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 def uppercase(str):
+    final_string = ''
     for pau in range(len(str)):
-        if str[pau] >= 'a' and str[pau] <= 'z':
-            mos = str[pau]
-            mos = ord(mos)
-            mos = mos - 32
-            mos = chr(mos)
-            str = str[:pau] + mos + str[pau + 1:]
-            print("{}".format(str))
+        if pau in 'abcdefghijklmnopqrstuvwqxyz':
+            mos = ord(pau)
+            jul = mos - 32
+            final_string = final_string + chr(jul)
+        else:
+            final_string = final_string + pau
+    print("{}".format(final_string))
