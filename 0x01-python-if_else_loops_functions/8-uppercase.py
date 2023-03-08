@@ -7,3 +7,4 @@ def uppercase(str):
             mos = mos - 32
             mos = chr(mos)
             str = str[:pau] + mos + str[pau + 1:]
+            print("{}".format(str))
