@@ -7,11 +7,11 @@ def fizzbuzz():
     for pau in range(1, 101):
         if pau % 3 == 0 and pau % 5 == 0:
             print("{}".format(fizzbuzz), end=" ")
-        if pau % 3 == 0:
+        elif pau % 3 == 0:
             print("{}".format(fizz), end=" ")
-        if pau % 5 == 0:
+        elif pau % 5 == 0:
             print("{}".format(buzz), end=" ")
-        if pau == 100:
+        elif pau == 100:
             print("{}".format(last))
         else:
             print("{}".format(pau), end=" ")
