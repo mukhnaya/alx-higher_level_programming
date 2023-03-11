@@ -17,5 +17,3 @@ def no_c(my_string):
     for x in list1:
         new_string = new_string + x
     return new_string
-print(no_c("Best School"))
-print(no_c("Chicago"))
