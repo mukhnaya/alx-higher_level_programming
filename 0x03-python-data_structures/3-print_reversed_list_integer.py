@@ -4,4 +4,4 @@ def print_reversed_list_integer(my_list=[]):
     mos = 0
     while pau >= mos:
         print("{:d}".format(my_list[pau]))
-        pau -=1
+        pau -= 1
