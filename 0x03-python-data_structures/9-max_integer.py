@@ -12,6 +12,6 @@ def max_integer(my_list=[]):
                     temp = my_list[mos]
                     my_list[mos] = my_list[mos + 1]
                     my_list[mos + 1] = temp
-                mos +=1
-            pau -=1       
+                mos += 1
+            pau -= 1
     return my_list[x]
