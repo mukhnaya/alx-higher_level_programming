@@ -4,7 +4,9 @@ def print_reversed_list_integer(my_list=[]):
         my_list.reverse()
         for i in my_list:
             print("{:d}".format(i))
-    '''pau = len(my_list) - 1
+    '''
+    my own code
+    pau = len(my_list) - 1
     mos = 0
     if pau == 0:
 
