@@ -5,16 +5,14 @@ def safe_print_list(my_list=[], x=0):
         for pau in my_list:
             mos = mos + 1
         try:
-            if x < mos:
                 jos = 0
                 for jul in range(jos, x):
-                    print("{}".format(my_list[jul]), end="")
+                    print("{:d}".format(my_list[jul]), end="")
                 print()
-        except Exception:
-            if x > mos - 1:
-                lorio = 0
-                for lyn in range(lorio, mos):
-                    print("{}".format(my_list[lyn]))
+        except IndexError:
+            pass
+        print()
+    return mos
 
 my_list = [1, 2, 3, 4, 5]
 
