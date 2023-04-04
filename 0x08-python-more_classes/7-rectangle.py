@@ -55,11 +55,11 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ""
         else:
-            for pau in range(self.__height):
-                for mos in range(self.__width):
-                    print(self.print_symbol, end="")
+            for pau in range(self.__height - 1):
+                for mos in range(self.__width - 1):
+                    print(str(self.print_symbol), end="")
                 print()
-        return self.print_symbol * self.__width
+        return str(self.print_symbol) * self.__width
 
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
