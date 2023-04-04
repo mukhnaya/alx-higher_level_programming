@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 '''creates a square class'''
+
+
 class Square:
     '''the class is not empty'''
 
