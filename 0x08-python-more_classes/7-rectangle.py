@@ -56,10 +56,10 @@ class Rectangle:
             return ""
         else:
             for pau in range(self.__height - 1):
-                for mos in range(self.__width - 1):
+                for mos in range(self.__width):
                     print(str(self.print_symbol), end="")
                 print()
-        return str(self.print_symbol) * (self.__width - 1)
+        return str(self.print_symbol) * (self.__width)
 
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
