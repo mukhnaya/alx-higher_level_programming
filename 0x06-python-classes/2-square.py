@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''creates a square class'''
+'''2-square.py: Defines size as an int and also >= 0'''
 
 
 class Square:
