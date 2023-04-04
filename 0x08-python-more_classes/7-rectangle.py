@@ -5,7 +5,7 @@
 class Rectangle:
     '''body of task 2'''
     number_of_instances = 0
-    print_symbol = '#'
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         self.__width = width
@@ -57,9 +57,9 @@ class Rectangle:
         else:
             for pau in range(self.__height):
                 for mos in range(self.__width):
-                    print(str(self.print_symbol), end="")
+                    print(self.print_symbol, end="")
                 print()
-        return str(self.print_symbol) * self.__width
+        return self.print_symbol * self.__width
 
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
