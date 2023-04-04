@@ -8,4 +8,3 @@ class Rectangle:
     ''' This is the body of Rectangle class'''
 
     pass
-
