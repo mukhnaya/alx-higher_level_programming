@@ -59,7 +59,7 @@ class Rectangle:
                 for mos in range(self.__width - 1):
                     print(str(self.print_symbol), end="")
                 print()
-        return str(self.print_symbol) * self.__width
+        return str(self.print_symbol) * (self.__width - 1)
 
     def __repr__(self):
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
