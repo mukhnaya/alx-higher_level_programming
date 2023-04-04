@@ -5,7 +5,7 @@
 class Square:
     '''body block of square'''
 
-    def __init__(self,size=0):
+    def __init__(self, size=0):
         self.__size = size
 
     @property
@@ -33,5 +33,5 @@ class Square:
         else:
             for i in range(self.__size):
                 for j in range(self.__size):
-                    print("#",end="")
+                    print("#", end="")
                 print()
