@@ -2,8 +2,10 @@
 '''
 Rectangle class declaration
 '''
+
+
 class Rectangle:
     ''' This is the body of Rectangle class'''
 
-
     pass
+
