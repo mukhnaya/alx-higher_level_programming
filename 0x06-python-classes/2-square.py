@@ -3,6 +3,7 @@
 
 class Square:
     '''this body is not empty'''
+
     __size = 0
     if type(size) is not int:
         raise TypeError("size must be an integer")
