@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-'''
-Rectangle class declaration
-'''
+'''Rectangle class declaration'''
 
 
 class Rectangle:
