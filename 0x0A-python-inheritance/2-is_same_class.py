@@ -4,7 +4,8 @@
 
 def is_same_class(obj, a_class):
     '''using isinstance function'''
-    isinstance(obj, a_class)
+    mos = isinstance(obj, a_class)
+    return mos
 
 a = 1
 if is_same_class(a, int):
