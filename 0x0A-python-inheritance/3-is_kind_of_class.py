@@ -4,5 +4,5 @@
 
 def is_kind_of_class(obj, a_class):
     '''using is subclass'''
-    mos = issubclass(obj, a_class)
+    mos = isinstance(obj, a_class)
     return mos
