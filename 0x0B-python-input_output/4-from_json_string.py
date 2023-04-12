@@ -5,5 +5,5 @@
 def from_json_string(my_str):
     '''function convert to JSON object'''
     import json
-    mos = json.dumps(my_str)
-    return type(mos)
+    mos = json.loads(my_str)
+    return mos
