@@ -10,5 +10,5 @@ def write_file(filename="", text=""):
         mos.write(text)
     count = 1
     for i in text:
-        count +=1
+        count += 1
     return count
