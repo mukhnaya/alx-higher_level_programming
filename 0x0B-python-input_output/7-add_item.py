@@ -14,7 +14,7 @@ new_list = []
 if pat.exists(my_file):
     new_list = load_from_json_file(my_file)
 
-for i in range(1, len(argv)):
-    new_list.append(argv[i])
+for i in range(1, len(k)):
+    new_list.append(k[i])
 
 save_to_json_file(new_list, my_file)
