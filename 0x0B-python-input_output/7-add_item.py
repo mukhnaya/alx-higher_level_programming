@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import json
-from 5-save_to_json_file import save_to_json_file
-from 6-load_from_json_file import load_from_json_file
 import sys
 import os.path as pat
 from sys import argv as k
-'''adds arguments'''
 
+'''adds arguments'''
+save_to_json_file = __import__('7-save_to_json_file').save_to_json_file
+load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
 
 my_file = "add_item.json"
 new_list = []
