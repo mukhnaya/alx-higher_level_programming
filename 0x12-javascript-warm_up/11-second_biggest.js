@@ -11,7 +11,7 @@ if (argLen === 1) {
     } else {
       array1.push(argInt);
     }
-    array1.sort(function (a, b) { return b - a; });
+    array1.sort(function (a, b) { return b - a });
     console.log(array1[1]);
   }
 }
