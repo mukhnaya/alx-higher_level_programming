@@ -5,7 +5,7 @@ function factorial1 (n) {
     console.log(1);
   } else {
     let y = n;
-    for (let x = 0; < n; x++) {
+    for (let x = 0; x < n; x++) {
       fact = fact * y;
       y = y - 1;
     }
