@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' List all the states in a table'''
+''' a script that takes in an argument and displays all values'''
 import MySQLdb
 import sys
 
@@ -10,11 +10,10 @@ if __name__ == "__main__":
 
     database1 = MySQLdb.connect(host="localhost", user=USER, passwd=PASS, db=DB1, port=3306, charset="utf8")
     cur = database1.cursor()
-    cur.execute("SELECT * FROM states WHERE name LIKE '{:s}' ORDER BY id ASC".format(argv[4]))
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY '{}' ORDER BY id ASC".format(searched))
     rows = cur.fetchall()
     for r in rows:
-        if r[1] == argv[4]:
-            print(r)
+        print(r)
 
     cur.close()
     database1.close()
